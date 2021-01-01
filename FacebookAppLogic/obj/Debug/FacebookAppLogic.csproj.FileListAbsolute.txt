@@ -1,0 +1,9 @@
+C:\Users\morbl\source\repos\A21 Ex01 Mor 307955740 Lia 209082197\FacebookAppLogic\bin\Debug\FacebookAppLogic.dll
+C:\Users\morbl\source\repos\A21 Ex01 Mor 307955740 Lia 209082197\FacebookAppLogic\bin\Debug\FacebookAppLogic.pdb
+C:\Users\morbl\source\repos\A21 Ex01 Mor 307955740 Lia 209082197\FacebookAppLogic\bin\Debug\Facebook.dll
+C:\Users\morbl\source\repos\A21 Ex01 Mor 307955740 Lia 209082197\FacebookAppLogic\bin\Debug\FbGraphApiWrapper.dll
+C:\Users\morbl\source\repos\A21 Ex01 Mor 307955740 Lia 209082197\FacebookAppLogic\obj\Debug\FacebookAppLogic.csprojAssemblyReference.cache
+C:\Users\morbl\source\repos\A21 Ex01 Mor 307955740 Lia 209082197\FacebookAppLogic\obj\Debug\FacebookAppLogic.csproj.CoreCompileInputs.cache
+C:\Users\morbl\source\repos\A21 Ex01 Mor 307955740 Lia 209082197\FacebookAppLogic\obj\Debug\FacebookAppLogic.csproj.CopyComplete
+C:\Users\morbl\source\repos\A21 Ex01 Mor 307955740 Lia 209082197\FacebookAppLogic\obj\Debug\FacebookAppLogic.dll
+C:\Users\morbl\source\repos\A21 Ex01 Mor 307955740 Lia 209082197\FacebookAppLogic\obj\Debug\FacebookAppLogic.pdb

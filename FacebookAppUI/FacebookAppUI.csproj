@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A146427B-8F4C-4B95-BAA6-7172B828674B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FacebookAppUI</RootNamespace>
+    <AssemblyName>FacebookAppUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BirthYearFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BirthYearFilterForm.Designer.cs">
+      <DependentUpon>BirthYearFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CityFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CityFilterForm.Designer.cs">
+      <DependentUpon>CityFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacebookAppForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacebookAppForm.Designer.cs">
+      <DependentUpon>FacebookAppForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BirthdaysForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BirthdaysForm.Designer.cs">
+      <DependentUpon>BirthdaysForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilterFriendsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilterFriendsForm.Designer.cs">
+      <DependentUpon>FilterFriendsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenderFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenderFilterForm.Designer.cs">
+      <DependentUpon>GenderFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LikerRankForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LikerRankForm.Designer.cs">
+      <DependentUpon>LikerRankForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInForm.Designer.cs">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyProfilePageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyProfilePageForm.Designer.cs">
+      <DependentUpon>MyProfilePageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Facebook">
+      <HintPath>..\..\..\..\Desktop\sarit\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="FbGraphApiWrapper">
+      <HintPath>..\..\..\..\Desktop\sarit\FbGraphApiWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BirthYearFilterForm.resx">
+      <DependentUpon>BirthYearFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BirthdaysForm.resx">
+      <DependentUpon>BirthdaysForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CityFilterForm.resx">
+      <DependentUpon>CityFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacebookAppForm.resx">
+      <DependentUpon>FacebookAppForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilterFriendsForm.resx">
+      <DependentUpon>FilterFriendsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenderFilterForm.resx">
+      <DependentUpon>GenderFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LikerRankForm.resx">
+      <DependentUpon>LikerRankForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInForm.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyProfilePageForm.resx">
+      <DependentUpon>MyProfilePageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.Album.datasource" />
+    <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.Page.datasource" />
+    <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.Post.datasource" />
+    <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.User.datasource" />
+    <None Include="Resources\facebookLogo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-F_icon.svg %282%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-07 at 17.57.44.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-07 at 18.03.17.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-07 at 18.04.38.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-12 at 14.28.31.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FacebookAppLogic\FacebookAppLogic.csproj">
+      <Project>{5a6a547f-5112-4573-8fb5-c900dd709dd0}</Project>
+      <Name>FacebookAppLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-19 at 12.48.22.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\likeBanner.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
